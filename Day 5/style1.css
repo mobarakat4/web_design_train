@@ -1,0 +1,114 @@
+.in{
+    display: inline;
+    clear:right;
+    
+    
+}
+body{
+ margin:0;  
+
+}
+h1{
+    color:white;
+    text-shadow: 1px 1px 10px #9c159a,0px 0px 5px #373cc689;
+}
+.fl{
+    display:flex;
+    justify-content: center;
+    padding:5px
+}
+.fl p{
+    padding:5px;
+    margin:0px 6px;
+    background-color: silver;
+
+}
+.gr{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ; 
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 4px;
+    margin: 3px;
+}
+.gr div{
+    background-color: rgba(227, 192, 148, 0.929);
+    border-radius: 4px;
+    padding:10px 5px; 
+}
+.one{
+    grid-column: 1/2;
+}
+.two{
+    grid-column: 2/4;
+}
+.three{
+    grid-row: 2/4;
+}
+/* ------------------ */
+.sec{
+    border:12px solid red;
+    padding: 8px;
+    margin:5px;
+}
+/* ------------------ */
+.thr{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding:15px;
+    background-color: rgb(148, 217, 148);
+
+}
+.th{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding:15px;
+
+}
+.th a{
+    text-decoration: none;
+    color:white;
+    border:2px solid  black;
+    border-radius: 4px;
+}
+.thr a{
+    text-decoration: none;
+    color:black;
+    background-color: rgba(0, 0, 255, 0.479);
+    padding:6px;
+    border:2px solid  black;
+    border-radius: 4px;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+    /* margin: auto; */
+    gap:10px;
+    margin:30px;
+    
+}
+.left img{
+    float: left;
+    margin-right: 20px; 
+    
+}
+.left p{
+    display: inline;
+    padding :15px
+}
+.left p::after{
+    clear:both
+}
+.left div{
+    /* clear: both;
+     */
+     /* display: flex; */
+}
+.right{
+    min-width:405px;
+    /* float:right; */
+}
+.right img{
+    float: right;
+}

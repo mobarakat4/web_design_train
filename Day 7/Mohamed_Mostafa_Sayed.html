@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد مصطفي سيد أحمد محمد بركات</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        input, textarea{
+            padding:5px;
+            margin:5px;
+            
+        }
+        form{
+            padding:11px;
+            border:1px double black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- heading -->
+    <h1>محمد مصطفي سيد أحمد محمد بركات</h1>
+    <h2>heading</h2>
+    <h3>heading</h3>
+    <h4>heading</h4>
+    <h5>heading</h5>
+    <h6>heading</h6>
+    <hr>
+    <!-- paragraph -->
+    <p>the paragraph</p>
+    <p>the paragraph</p>
+    <hr>
+    <!-- links && image -->
+    <a href="https://google.com">Google</a>
+    <a href="https://facebook.com">facebook</a>
+    <hr>
+    <a href=""><img src="../images/black.jpg" width="60" height="120" alt="photo" title="title"></a>
+    <!-- unorder list -->
+    <hr>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+
+    <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <hr>
+    <!-- order list -->
+    <ol>
+
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <ol type="I">
+
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <hr>
+    <!-- iframe -->
+    <iframe name="frame" width="560" height="315" src="https://www.youtube.com/embed/EU5dz3ISVlk?si=19b9JsSRNbiqTDw2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <a href="https://www.youtube.com/embed/v7x6jVWw0YY?si=WeOalKL3p9GLnFU3" target="frame">MESSI</a>
+    <hr>
+    <!-- table -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>Mohamed</td>
+            <td>kota10441@gmail.com</td>
+            <td>01228210441</td>
+        </tr>
+    </table>
+    <hr>
+    <hr>    
+    <table>
+        <caption> This is my info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th colspan="2">Phone</th>
+        </tr>
+        <tr>
+            <td>Mohamed</td>
+            <td>kota10441@gmail.com</td>
+            <td>01228210441</td>
+            <td>01228210441</td>
+        </tr>
+    </table>    
+    <hr><hr>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td colspan="2">Mohamed</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td colspan="2">kota10441@gamil.com</td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td>01228210441</td>
+            <td>01228210441</td>
+        </tr>
+    </table>
+    <hr>
+    <hr> <br>
+    <!-- form -->
+    <form action="child.html">
+        <label for="first">First name</label>
+        <input type="text" name="" id="first" placeholder="Enter your first name "> <br>
+        <label for="pass">Password</label>
+        <input type="password" name="" id="pass" placeholder="Enter you password"><br>
+        <label for="skill">Explain you skill</label>
+        <textarea name="" id="skil" cols="10" rows="5"></textarea><br>
+        <input type="submit" value="save" name="" id=""> <input type="reset" value="cancel">
+
+    </form>
+
+    <!-- {% include child.html %} -->
+</body>
+</html>

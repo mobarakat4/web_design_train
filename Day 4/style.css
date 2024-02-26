@@ -1,0 +1,29 @@
+    .yellow{
+        color: rgb(199, 199, 18);
+    }
+    .green{
+        color:green;
+    }
+    .blue{
+        color:blue
+    }
+    .pink{
+        color:pink
+    }
+    table,td ,th{
+        border:1px solid black
+    }
+    .u{
+        color: brown;
+    }
+    .im{
+        width: 500px;
+    }
+
+    /* .............
+     */
+     .main{
+        padding:9px;
+        border:2px solid rgb(54, 54, 152);
+
+     }

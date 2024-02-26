@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: blue;
+            /* margin: 20px 0px; */
+            padding:0px 5px;
+        }
+        .first{
+            float:left;
+            justify-content: space-around;
+            /* padding:5px; */
+            gap:3px;
+        
+        }
+        .sec{
+            gap:3px;
+        }
+       
+        p span{
+            background-color: red;
+            /* float:left; */
+            padding: 5px;
+        }
+        p{
+            display: flex;
+        
+        }
+        .clear{
+            clear: both;
+        }
+        .last{
+            padding:5px
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+        <p class="first">
+            <span>text1</span>
+            <span>text2</span>
+            <span>text3</span>
+            <div class="clear"></div>
+        </p>
+    </div>
+    <br>
+    
+    
+    <p class="sec">
+        <span>text1</span>
+        <span>text2</span>
+        <span>text3</span>
+        <div></div>
+    </p>
+    <hr>
+    
+    <p class="first">
+        <span>text1</span>
+        <span>text2</span>
+        <span>text3</span>
+        <div class="clear"></div>
+    </p>
+    <hr>
+    
+    <p class="last">
+        <span>text1</span>
+        <span>text2</span>
+        <span>text3</span>
+        <div></div>
+    </p>
+    <hr>
+    
+    
+</body>
+</html>
