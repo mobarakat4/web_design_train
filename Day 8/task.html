@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0;
+            font-style: italic;
+        }
+        .header{
+            background-color: red;
+            margin:0px 0px 20px 0px ;
+            /* margin-top:20px; */
+            padding: 10px;
+            /* border-radius: 5px; */
+            
+        }
+        .header h1{
+            text-align: center;
+        }
+        .main{
+            display:flex;
+        }
+        .first{
+            background-color: #333;
+            padding: 2px;
+            width: 35%;
+            /* color: white; */
+        }
+        .sec{
+            background-color: rgb(236, 147, 162);
+            width: 100%;
+            padding: 2px;
+            height: fit-content;
+        }
+        .sec p{
+            color: red;
+        }
+        form{
+            border: 2px dashed;
+            padding: 3px;
+        }
+        .last{
+            display: flex;
+            background-color: #111;
+            color: white;
+            width: fit-content;
+        }
+        .last div{
+            background-color: rgb(236, 147, 162);
+            margin: 3px;
+        }
+        .fl{
+            margin:10px;
+            margin-left: 20px;
+            display:flex;
+            flex-direction: column;
+            gap: 2px;
+            font-weight: bold;
+            
+        }
+        .fl a{
+            color: red;
+            width: fit-content;
+            background-color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>        This is the page header
+        </h1>
+    </div>
+    <div class="main">
+        <div class="first">
+            <div>
+                <form action="">
+                    <label for="">User Name</label>
+                    <input style="background-color: yellow;" type="text" name="" id="">
+                    <br>
+                    <label for="">Password</label>
+                    <input type="password" name="" id="">
+                    <br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">remember me</label>
+                    <br>
+                    <button>login</button>
+                </form>
+            </div>
+            <h2>Site menu</h2>
+            <div class="fl">
+                <a href="">link1</a>
+                <a href="">link1</a>
+                <a href="">link1</a>
+                <a href="">link1</a>
+                <a href="">link1</a>
+            </div>
+        </div>
+        <div class="sec">
+            <h1>about us</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt neque ratione hic! Architecto ullam nam, excepturi voluptatibus nemo vero beatae libero doloribus obcaecati quis illum magni assumenda aliquam velit.</p>
+            <div class="last">
+                <div>title1</div>
+                <div>title2</div>
+                <div>title3</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
