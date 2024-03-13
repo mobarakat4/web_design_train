@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,*{
+            font-family:"open sans", sans-serif;
+            font-size: 45px;
+            margin:0px;
+        }
+        .header{
+            background-color: #eadbdb;
+            color: #665e5e;
+            padding:20px
+        }
+        .header h1{
+            text-align: center;
+        }
+
+        .flex{
+            display: flex;
+            gap: 20px;
+            margin: 50px 0;
+        }
+        ul{
+            padding:40px;
+            /* margin:30px; */
+            list-style: none;
+        }
+        li{
+            background-color: #665e5e;
+            padding:10px 50px;
+            margin-bottom: 10px;
+        }
+        a{
+            color:black;
+            text-decoration-color: black;
+        }
+        .about{
+            background-color: #665e5e;
+            padding: 40px 10px;
+        }
+        .nav{
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #665e5e;
+        }
+        .cont{
+            padding: 0 30px;
+        }
+        @media only screen and (max-width: 1100px) {
+            .flex{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 50px 0;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header"><h1>Hello World</h1></div>
+    <div class="flex">
+        <div>
+            <ul>
+                <li><a href="">link1</a></li>
+                <li><a href="">link1</a></li>
+                <li><a href="">link1</a></li>
+                <li><a href="">link1</a></li>
+            </ul>
+        </div>
+        <div class="cont">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum, reiciendis sapiente eos, assumenda id, placeat cumque minus accusantium voluptas quaerat corrupti quod ullam impedit recusandae. Velit accusantium qui dicta!</p>
+
+        </div>
+        <div class="about">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+    </div>
+    <div class="nav">copy right w3school</div>
+</body>
+</html>
